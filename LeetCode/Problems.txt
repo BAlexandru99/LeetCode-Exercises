@@ -1,0 +1,11 @@
+1. The sum of positive numbers(Easy)
+   • Problem: It receives a list of integers and returns the sum of the positive numbers.
+Hint: Use filter to get the positive numbers and reduce to add them.
+
+2. Length of words(Easy)
+   • Problem: It receives a list of words and returns a list with the length of each word.
+Hint: Use map to apply the length function to each word.
+
+3.Filtering even numbers
+  • Problem: Receive a list of integers and return only the even numbers.
+Hint: Use filter along with a lambda that checks if the number is even.
