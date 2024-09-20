@@ -6,15 +6,15 @@
    • Problem: It receives a list of words and returns a list with the length of each word.
    • Hint: Use map to apply the length function to each word.
 
-3.Filtering even numbers
+3. Filtering even numbers
   • Problem: Receive a list of integers and return only the even numbers.
   • Hint: Use filter along with a lambda that checks if the number is even.
 
-4.Application of a squaring function
+4. Application of a squaring function
   • Problem: It receives a list of numbers and returns a list of the square of each number.
   • Hint: Use map with a lambda that squares each number.
 
-5.Capitalized word products
+5. Capitalized word products
   • Problem: It receives a list of words and returns a list of those words that start with an uppercase letter.
   • Hint: Use filter with a lambda that checks if the first character is uppercase.
 
@@ -25,3 +25,15 @@
 7. Multiplying all numbers
   • Problem: It receives a list of numbers and returns the product of all the numbers in the list.
   • Hint: Use reduce from functools.
+
+8. Concatenation of words
+  • Problem: It receives a list of words and returns a single string that represents the concatenation of all words.
+  • Hint: Use reduce and a separator such as space (" ").
+  
+9. Sum of word lengths
+  • Problem: Receive a list of words and return the sum of the lengths of all the words.
+  • Hint: Apply map to get lengths and then sum.
+
+10. Unique numbers in the list
+  • Problem: It receives a list of numbers and returns a list of unique numbers.
+  • Hint: You can use set to remove duplicates and list to rebuild the list.
