@@ -1,0 +1,15 @@
+1. Reading a text file and displaying its content
+    • Read the content of a text file and display each line on the console.
+
+2. Writing to a text file
+    • Write a string into a text file. If the file exists, overwrite it.
+3. Reading a binary file and displaying bytes
+    • Read a binary file and display the bytes read in the console
+4. Writing to a binary file
+    • Write a series of bytes to a binary file.
+5. Counting lines in a text file
+    • Read a text file and count how many lines it contains.
+6. Reading a text file and removing white spaces
+    • Read the content of a text file and display it without white spaces.
+7. Appending to a text file without overwriting
+    • Add content to the end of a text file without erasing the existing data.

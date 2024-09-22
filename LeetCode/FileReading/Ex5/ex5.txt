@@ -1,0 +1,6 @@
+apples
+tables
+book
+water
+fire
+window

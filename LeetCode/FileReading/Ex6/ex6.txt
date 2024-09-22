@@ -1,0 +1,3 @@
+Apples are red.
+Tomatoes are red.
+Bananas are yellow.

@@ -1,0 +1,4 @@
+Apples are red.
+Tomatoes are red.
+Bananas are yellow.
+Kiwi is brown.
