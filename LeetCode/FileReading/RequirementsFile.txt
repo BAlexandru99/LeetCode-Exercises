@@ -13,3 +13,5 @@
     • Read the content of a text file and display it without white spaces.
 7. Appending to a text file without overwriting
     • Add content to the end of a text file without erasing the existing data.
+8. Reading and reversing the content of a text file
+    • Read a text file and write a new file with the reversed content.
