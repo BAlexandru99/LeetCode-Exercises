@@ -1,0 +1,14 @@
+1. Singleton Pattern
+
+ Exercise 1:
+Create a simple logging system (logger) where only one instance of the Logger class is allowed. Make sure that no matter how many times the instance getter method is called, the same instance will always be returned. Add methods to allow logging of messages.
+
+Hint: Use a private constructor and a static getter for the instance.
+
+Exercise 2:
+Build a system for a personal computer using the Builder pattern. 
+The Computer class should have components such as: processor, RAM, storage and video card. 
+Make sure you can create different computer configurations (gaming, office, etc.) using the same builder.
+
+Hint: Make sure you don't have to specify all the components for each computer. 
+For example, an office computer might only have RAM and a processor, without a dedicated video card.
