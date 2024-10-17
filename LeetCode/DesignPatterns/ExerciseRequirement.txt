@@ -5,10 +5,24 @@ Create a simple logging system (logger) where only one instance of the Logger cl
 
 Hint: Use a private constructor and a static getter for the instance.
 
-Exercise 2:
+    Exercise 2:
 Build a system for a personal computer using the Builder pattern. 
 The Computer class should have components such as: processor, RAM, storage and video card. 
 Make sure you can create different computer configurations (gaming, office, etc.) using the same builder.
 
 Hint: Make sure you don't have to specify all the components for each computer. 
 For example, an office computer might only have RAM and a processor, without a dedicated video card.
+
+2. Builder Pattern
+
+    Exercise 1:
+Create a builder for a Pizza class. A pizza can have various ingredients (eg cheese, ham, mushrooms, etc.), 
+sizes and type of dough (thin, fluffy). Use the Builder pattern to create pizza instances with different combinations of ingredients.
+Hint: The Pizza class should only have one private constructor, and the actual creation should be done via a PizzaBuilder.
+
+    Exercise 2:
+Build a system for a personal computer using the Builder pattern. 
+The Computer class should have components such as: processor, RAM, storage and video card. 
+Make sure you can create different computer configurations (gaming, office, etc.) using the same builder.
+
+Hint: Make sure you don't have to specify all the components for each computer. For example, an office computer might only have RAM and a processor, without a dedicated video card.
