@@ -2,7 +2,6 @@
 
  Exercise 1:
 Create a simple logging system (logger) where only one instance of the Logger class is allowed. Make sure that no matter how many times the instance getter method is called, the same instance will always be returned. Add methods to allow logging of messages.
-
 Hint: Use a private constructor and a static getter for the instance.
 
     Exercise 2:
@@ -26,3 +25,13 @@ The Computer class should have components such as: processor, RAM, storage and v
 Make sure you can create different computer configurations (gaming, office, etc.) using the same builder.
 
 Hint: Make sure you don't have to specify all the components for each computer. For example, an office computer might only have RAM and a processor, without a dedicated video card.
+
+3. Factory Method Pattern 
+
+    Exercițiul 1: 
+Create a vehicle system in care class of base Vehicle are class derived from Car, Bike and Truck. Folosește patternul Factory Method pentru a creationa VehicleFactory care decides ce type of vehicle să creeze based on a given parameter (for example, type of vehicle).
+Hint: Factory Method is used to instantly return to the Vehicle class, its subclass comes out to implement the specific behavior of the vehicle.
+
+    Exercise 2: 
+Implement a notification system. Create the abstract class Notification if the class derives from SMSNotification, EmailNotification or PushNotification. Utilizează Factory Method to decide on the type of notifications that appear in the function of preferred usage (SMS, email, push).
+Hint: Factory-ul va trebui să instantaneously returns the class value derived from a parameter (for example, a string or constant).
