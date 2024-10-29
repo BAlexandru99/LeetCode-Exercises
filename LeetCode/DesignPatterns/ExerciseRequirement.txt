@@ -28,10 +28,22 @@ Hint: Make sure you don't have to specify all the components for each computer. 
 
 3. Factory Method Pattern 
 
-    Exercițiul 1: 
+    Exercise 1: 
 Create a vehicle system in care class of base Vehicle are class derived from Car, Bike and Truck. Folosește patternul Factory Method pentru a creationa VehicleFactory care decides ce type of vehicle să creeze based on a given parameter (for example, type of vehicle).
 Hint: Factory Method is used to instantly return to the Vehicle class, its subclass comes out to implement the specific behavior of the vehicle.
 
     Exercise 2: 
 Implement a notification system. Create the abstract class Notification if the class derives from SMSNotification, EmailNotification or PushNotification. Utilizează Factory Method to decide on the type of notifications that appear in the function of preferred usage (SMS, email, push).
 Hint: Factory-ul va trebui să instantaneously returns the class value derived from a parameter (for example, a string or constant).
+
+4. Adapter Pattern
+
+    Exercise 1: Payment System
+Let's imagine that you have an application that uses an existing class OldPaymentSystem, which has a method makePayment(String customerName, double amount).
+You recently added a new payment system, NewPaymentSystem, which uses a processTransaction(String customerName, double amount, String currency) method.
+Request: Create a PaymentAdapter class that implements the OldPaymentSystem interface so that you can use NewPaymentSystem instead of OldPaymentSystem without changing the code that uses OldPaymentSystem.
+
+    Exercise 2: Adaptation of Graphical Interfaces
+You have a graphics drawing program where you use the Shape interface, which defines a draw() method.
+The new library you are using defines a FancyShape class that has a render() method for drawing, different from draw().
+Request: Create a FancyShapeAdapter class that implements the Shape interface, thus allowing FancyShape objects to be used in your current program by calling the draw() method.
