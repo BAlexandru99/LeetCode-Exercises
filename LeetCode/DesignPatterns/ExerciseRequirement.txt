@@ -47,3 +47,24 @@ Request: Create a PaymentAdapter class that implements the OldPaymentSystem inte
 You have a graphics drawing program where you use the Shape interface, which defines a draw() method.
 The new library you are using defines a FancyShape class that has a render() method for drawing, different from draw().
 Request: Create a FancyShapeAdapter class that implements the Shape interface, thus allowing FancyShape objects to be used in your current program by calling the draw() method.
+
+5. Decorator Pattern 
+
+    Exercise 1: Alarm Notifications
+Let's imagine you have a BasicNotification class that sends simple notifications via the send() method.
+You want to add email and SMS notification options without modifying the BasicNotification class.
+Request: Create EmailNotificationDecorator and SMSNotificationDecorator decorators to add additional functionality for sending email and SMS notifications, following the decorator principle.
+
+5. Observer
+
+Exercise 1: User notification system
+
+In an app, users can subscribe to notifications for various events (eg, a product's price change, new offers, etc.).
+Create a mechanism to allow users to subscribe and be notified when important changes occur.
+Each type of notification must be sent only to users subscribed to that specific event.
+
+Exercise 2: Monitoring stocks in a store
+
+You have an inventory management system in a store, and certain products have limited stock.
+When a product reaches a minimum quantity, the system must send alerts to multiple departments (eg procurement, sales) to initiate replenishment.
+Implement an implementation to monitor inventory levels and send notifications to subscribing departments when inventory drops below a predetermined threshold.
