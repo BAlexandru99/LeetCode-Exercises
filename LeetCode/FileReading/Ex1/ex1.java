@@ -1,4 +1,3 @@
-
 package LeetCode.FileReading.Ex1;
 
 import java.io.IOException;
